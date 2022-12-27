@@ -3,7 +3,7 @@
 * SELECT COUNT(* ) as number_of_streets" <br/>
 FROM "nyc_streets" <br/>
 * Answer : 19091
-* ![1](https://user-images.githubusercontent.com/82833906/209726120-2f00c5fc-3814-43a0-812d-db2ce0cbf287.png)
+![1](https://user-images.githubusercontent.com/82833906/209726120-2f00c5fc-3814-43a0-812d-db2ce0cbf287.png)
 ## 2 . Ile ulic w Nowym Jorku ma nazwy zaczynające się na "B", "Q", "M" ?
 * SQL:
 * select count (name) as "number_of_selected_streets" <br/>
@@ -25,14 +25,14 @@ where name like 'B%' or name like 'Q%' or name 'M%'
 * select sum(popn_total) as "city_population" <br/>
 from "nyc_census_blocks" <br/>
 * Answer : 8175032
-* ![3](https://user-images.githubusercontent.com/82833906/209727903-39ceded1-e173-4bd0-a90d-22d42698bc9e.png)
+![3](https://user-images.githubusercontent.com/82833906/209727903-39ceded1-e173-4bd0-a90d-22d42698bc9e.png)
 ## 4 . Jaka jest populacja Bronxu, Manhattanu i Queens?
 * SQL:
 * select sum(popn_total) as "city_population" <br/>
 from "nyc_census_blocks" <br/>
 where boroname in ('The Bronx', 'Manhattan', 'Queens') <br/>
 * Answer : Queens(2230621), The Bronx(1385108), Manhattan(1585873)
-* ![4](https://user-images.githubusercontent.com/82833906/209728271-827522ef-22e7-4c7b-9b5f-786a66123ce7.png)
+![4](https://user-images.githubusercontent.com/82833906/209728271-827522ef-22e7-4c7b-9b5f-786a66123ce7.png)
 
 ## 5. Ile dzielnic ("neighborhoods") znajduje się w każdej gminie (borough)?
 * SQL:
